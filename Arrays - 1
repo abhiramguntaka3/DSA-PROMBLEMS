@@ -1,0 +1,17 @@
+public class Main
+{ 
+    
+	public static void main(String[] args) {
+		int[] arr  = { 23,569,2554,656,789,563,446};
+		int n = arr.length;
+               int sum = 0;
+              // int d = n-1;
+		for(int i = 0;i<n;i++){
+		    sum = sum + arr[i];
+		}
+               double average = (double)sum/n;
+           System.out.print(" the average values are "  + average);
+		
+		
+	}
+}
