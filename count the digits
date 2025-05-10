@@ -1,0 +1,21 @@
+class Count{
+public static  int countdigits(int n){
+  
+int cnt = 0;
+do{
+    
+cnt++;
+  n = n/10;
+
+  }
+    while(n!= 0);
+
+return cnt;
+}
+
+public static void main(String args[]){
+  int n = 3456790;
+int digits = countdigits(n);
+System.out.print(digits);
+}
+}
