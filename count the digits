@@ -18,4 +18,4 @@ public static void main(String args[]){
 int digits = countdigits(n);
 System.out.print(digits);
 }
-}
+} // this code works all the possible test cases
